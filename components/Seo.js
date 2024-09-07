@@ -41,7 +41,7 @@ const Seo = () => {
             />
             <meta name="twitter:image" content="/image.png" />
             <link rel="canonical" href="https://www.balajigiftpalace.com" />
-
+        
             <script type="application/ld+json">
                 {{
                     "@context": "https://schema.org",
