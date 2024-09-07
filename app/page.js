@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import Seo from "../components/Seo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,16 +8,16 @@ export default function Home() {
     return (
         <div className="min-h-screen w-full">
             <Seo />
-            <main className="h-screen w-full p-1 flex flex-col items-center bg-[url('/image.png')] bg-center bg-cover text-white font-bold">
+            <main className="min-h-screen w-full p-1 flex overflow-hidden- flex-col items-center bg-[url('/image.png')] bg-center bg-cover text-white font-bold">
                 <header>
-                    <h1 className="playfair-display-sc-bold-italic text-6xl text-center w-full m-4 mt-24">
+                    <h1 className="playfair-display-sc-bold-italic text-4xl text-center w-full m-4 mt-24">
                         Quality <br /> Umbrellas At <br /> Unbeatable <br />{" "}
                         Prices Across <br /> TamilNadu!
                     </h1>
                 </header>
 
                 <Link href="/Products">
-                    <button className="border-2 border-black p-2 w-64 prata rounded-2xl text-3xl bg-[#00000023] my-16">
+                    <button className="border-2 border-black p-2 w-fit prata rounded-2xl text-3xl bg-[#00000023] my-16">
                         Explore Umbrellas
                     </button>
                 </Link>
