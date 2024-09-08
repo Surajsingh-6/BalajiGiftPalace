@@ -9,7 +9,7 @@ export default function Home() {
             <Seo />
             <main className="min-h-screen w-full p-1 flex overflow-hidden- flex-col items-center bg-[url('/image.png')] bg-center bg-cover text-white font-bold">
                 <header>
-                    <h1 className="playfair-display-sc-bold-italic text-5xl text-center w-full m-4 mt-24">
+                    <h1 className="playfair-display-sc-bold-italic text-5xl text-center w-full my-4 mt-24">
                         Quality <br /> Umbrellas At <br /> Unbeatable <br />{" "}
                         Prices Across <br /> TamilNadu!
                     </h1>
