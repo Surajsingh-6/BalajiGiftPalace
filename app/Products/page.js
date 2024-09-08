@@ -80,7 +80,7 @@ function page() {
             <Seo
                 title="Products - Balaji Gift Palace | Wholesale and Retail Umbrellas in Tamil Nadu"
                 description="Browse a wide range of umbrellas including 2 Fold Black, 3 Fold Color, Baby Umbrellas and more at Balaji Gift Palace, your one-stop shop for quality umbrellas in Tamil Nadu."
-                keywords="2 Fold Black Umbrella, 3 Fold Umbrella, Baby Umbrella, Wholesale Umbrella, Tamil Nadu, Balaji Gift Palace"
+                keywords="2 Fold Black Umbrella, 3 Fold Umbrella, Baby Umbrella, Wholesale Umbrella, Tamil Nadu, Balaji Gift Palace , Umbrella Shop in nagercoil, Balaji Gift Palace Umbrella Collection, Balaji Gift Palace Umbrella shop, Balaji Gift Palace Umbrella store, Balaji Gift Palace Umbrella wholesale, Balaji Gift Palace Umbrella retail, Balaji Gift Palace Umbrella shop in Tamil Nadu, Balaji Gift Palace Umbrella store in Tamil Nadu, Balaji Gift Palace Umbrella wholesale in Tamil Nadu, Balaji Gift Palace Umbrella shop in nagercoil, Balaji Gift Palace Umbrella in nagercoil"
                 url="https://balajigiftpalace.live/products"
             />
             <script
@@ -111,7 +111,7 @@ function page() {
                                 {product.short_title}
                             </h2>
                             <button className="text-xs bg-yellow-500 rounded-md p-2">
-                                <Link href="tel:+919442831671">Get Price</Link>
+                                <Link href="tel:+91-9442831671">Get Price</Link>
                             </button>
                         </div>
                     </div>

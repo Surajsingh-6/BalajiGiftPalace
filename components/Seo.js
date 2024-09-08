@@ -13,7 +13,7 @@ const Seo = () => {
             />
             <meta
                 name="keywords"
-                content="umbrellas, wholesale umbrellas, retail umbrellas, Tamil Nadu, affordable umbrellas, best umbrellas in Tamil Nadu, Umbrella shop in nagercoil , umbrella shop in tamilnadu, umbrella shop in kanyakumari, umbrella shop in marthandam, umbrella shop in thuckalay, umbrella shop in trivandrum, umbrella shop in kerala, umbrella shop in kanyakumari district"
+                content="Balaji gift palace umbrellas,Balaji Gift Palace shop, Gift shop near me , Umbrella shop near me, Umbrella shop near me in nagercoil, Balaji Gift palace in Nagercoil  , wholesale umbrellas, retail umbrellas, Balaji Gift Palace Umbrella shop in nagercoil, affordable umbrellas, best umbrellas in Tamil Nadu, Umbrella shop in nagercoil , umbrella shop in tamilnadu, umbrella shop in kanyakumari, umbrella shop in marthandam, umbrella shop in thuckalay, umbrella shop in trivandrum, umbrella shop in kerala, umbrella shop in kanyakumari district"
             />
             <meta name="author" content="Balaji Gift Palace" />
             <meta
@@ -27,7 +27,7 @@ const Seo = () => {
             <meta property="og:image" content="/image.png" />
             <meta
                 property="og:url"
-                content="https://www.balajigiftpalace.com"
+                content="https://balajigiftpalace.live"
             />
             <meta property="og:type" content="website" />
             <meta name="twitter:card" content="summary_large_image" />
@@ -40,7 +40,7 @@ const Seo = () => {
                 content="Discover unbeatable prices for wholesale and retail umbrellas in Tamil Nadu."
             />
             <meta name="twitter:image" content="/image.png" />
-            <link rel="canonical" href="https://www.balajigiftpalace.com" />
+            <link rel="canonical" href="https://balajigiftpalace.live" />
         
             <script type="application/ld+json">
                 {{
@@ -49,7 +49,7 @@ const Seo = () => {
                     name: "Balaji Gift Palace",
                     description:
                         "Quality umbrellas at unbeatable prices for wholesale and retail in Tamil Nadu.",
-                    image: "https://www.balajigiftpalace.com/image.png",
+                    image: "https://balajigiftpalace.live/image.png",
                     address: {
                         "@type": "PostalAddress",
                         streetAddress: "Your street address",
@@ -63,8 +63,8 @@ const Seo = () => {
                         latitude: "Your latitude",
                         longitude: "Your longitude",
                     },
-                    url: "https://www.balajigiftpalace.com",
-                    telephone: "+91-your-phone-number",
+                    url: "https://balajigiftpalace.live",
+                    telephone: "+91-9442831671",
                 }}
             </script>
         </Head>
