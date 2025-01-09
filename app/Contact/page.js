@@ -84,12 +84,13 @@ function ContactPage() {
 
             <div className="min-h-screen w-full p-4 pt-6">
                 {/* Main Heading */}
-                <h1 className="border-b-2 text-black border-[#b4b3b39d] w-5/6 mx-auto text-2xl text-center">
+                <h1 className=" text-slate-900  border-[#b4b3b39d] w-full mx-auto text-2xl md:text-4xl lg:text-5xl font-semibold playfair-display-sc-bold-italic  text-center">
                     Contact Balaji Gift Palace
                 </h1>
+                <hr className="h-1 rounded-full w-5/6 lg:w-2/5 mx-auto bg-gradient-to-r from-[#e02eff] to-[#00d3b0]  "></hr>
 
                 <section className="mt-6">
-                    <h2 className="text-2xl font-semibold">Locate Us</h2>
+                    <h2 className="text-2xl font-semibold playfair-display-sc-bold-italic">Locate Us</h2>
                     <div className="mt-2">
                         {/* Google Map Embed */}
                         <iframe
@@ -102,10 +103,10 @@ function ContactPage() {
                     </div>
                 </section>
 
-                <section className="mt-6">
+                <section className="mt-6 w-full">
                     {/* Address Information */}
-                    <h3 className="text-xl font-bold">Address</h3>
-                    <p className="text-lg mt-2">
+                    <h3 className="text-xl font-bold playfair-display-sc-bold-italic">Address</h3>
+                    <p className="text-lg mt-2 ml-12">
                         76/A, Balaji Gift Palace, <br />
                         Thalavai Street, <br />
                         Meenakshipuram, <br />
@@ -116,7 +117,7 @@ function ContactPage() {
                     </p>
                     <button
                         onClick={copyToClipboard}
-                        className="mt-2 px-4 py-2 bg-blue-500 text-white rounded"
+                        className="mt-2 px-4 py-2 ml-12 bg-blue-500 text-white rounded-lg"
                     >
                         Copy Address
                     </button>
@@ -124,12 +125,12 @@ function ContactPage() {
 
                 <section className="mt-6">
                     {/* Contact Icons with Actions */}
-                    <h3 className="text-xl font-bold">Get in Touch</h3>
+                    <h3 className="text-xl font-bold w-full text-center playfair-display-sc-bold-italic ">Get in Touch</h3>
                     <div className="flex justify-evenly items-center my-6">
                         <div className="text-center">
                             <FontAwesomeIcon
                                 icon={faPhone}
-                                className="text-6xl border-2 rounded-full p-4 mx-2 cursor-pointer"
+                                className="text-3xl border-2 rounded-full p-4 mx-2 cursor-pointer"
                                 alt="Phone Icon"
                                 onClick={handleCallClick}
                             />
@@ -139,7 +140,7 @@ function ContactPage() {
                         <div className="text-center">
                             <FontAwesomeIcon
                                 icon={faWhatsapp}
-                                className="text-6xl border-2 rounded-full p-4 mx-2 cursor-pointer"
+                                className="text-3xl border-2 rounded-full p-4 mx-2 cursor-pointer"
                                 alt="WhatsApp Icon"
                                 onClick={handleWhatsAppClick}
                             />

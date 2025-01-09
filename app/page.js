@@ -24,6 +24,7 @@ export default function Home() {
                     <button className="border-2 border-black p-2 w-fit prata rounded-2xl text-3xl bg-[#00000023] my-8">
                         Contact Us
                     </button>
+                    
                 </Link>
 
                 <section className="mt-10 font-medium text-xl font-serif text-center">
