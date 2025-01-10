@@ -88,7 +88,7 @@ function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
             />
             
-            <h1 class="mb-4 text-4xl font-medium playfair-display-sc-bold-italic w-full text-center my-4 text-gray-900 dark:text-black md:text-5xl lg:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-[#06c3b3] from-[#3a6cc2]">Umbrella</span> Collections</h1>
+            <h1 className="mb-4 text-4xl font-medium playfair-display-sc-bold-italic w-full text-center my-4 text-gray-900 dark:text-black md:text-5xl lg:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-[#06c3b3] from-[#3a6cc2]">Umbrella</span> Collections</h1>
             <div className="flex flex-wrap p-2 ">
                 {prod.map((product, index) => (
                     
